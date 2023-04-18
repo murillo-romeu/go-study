@@ -4,13 +4,22 @@ import (
 	"fmt"
 )
 
-const (
-	x = iota
-	_
-	_
-	z
-)
+var x interface{}
 
 func main() {
-	fmt.Printf("%v \n%T\n", z, z)
+
+	x = 20.0
+
+	switch x.(type) {
+	case int:
+		fmt.Println("é int")
+	case bool:
+		fmt.Println("é bool")
+	case string:
+		fmt.Println("é string")
+	case float64, float32:
+		fmt.Println("é float")
+	default:
+		fmt.Println("não é nenhum")
+	}
 }
