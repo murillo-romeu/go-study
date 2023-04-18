@@ -17,6 +17,5 @@ func main() {
 		fmt.Println("Gosta de jogar Hipismo")
 	case "basquete":
 		fmt.Println("Gosta de jogar basquete")
-
 	}
 }
