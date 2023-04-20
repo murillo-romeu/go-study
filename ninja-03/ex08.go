@@ -12,8 +12,8 @@ func main() {
 	case x == 1:
 		fmt.Println("Valor é 1")
 	case x == 2:
-		fmt.Println("Valor é 1")
+		fmt.Println("Valor é 2")
 	case x == 3:
-		fmt.Println("Valor é 1")
+		fmt.Println("Valor é 3")
 	}
 }
