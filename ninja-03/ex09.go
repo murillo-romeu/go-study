@@ -14,7 +14,7 @@ func main() {
 	case "roquei":
 		fmt.Println("Gosta de jogar Roquei")
 	case "hipismo":
-		fmt.Println("Gosta de jogar Hipismo")
+		fmt.Println("Gosta de praticar Hipismo")
 	case "basquete":
 		fmt.Println("Gosta de jogar basquete")
 	}
